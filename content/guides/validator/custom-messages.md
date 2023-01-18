@@ -176,6 +176,6 @@ The `requiredWhen` validation rule will pass the following options.
 
 ```ts
 {
-  'requiredWhen': '{{ field }} is required when {{ otherField }}{{ operator }}{{ values }}'
+  'requiredWhen': '{{ field }} is required when {{ options.otherField }}{{ options.operator }}{{ options.values }}'
 }
 ```
